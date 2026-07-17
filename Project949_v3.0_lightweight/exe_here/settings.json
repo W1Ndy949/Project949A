@@ -1,0 +1,24 @@
+﻿{
+  "PetName": "Cyber Pet",
+  "Provider": "local-ollama-llama32",
+  "Protocol": "http",
+  "Host": "127.0.0.1",
+  "Port": "11434",
+  "Path": "/api/chat",
+  "Model": "llama3.2:latest",
+  "ApiKey": "",
+  "Persona": "你是一个住在用户桌面上的 cyber pet 智能体。你说中文，语气亲切、机灵、简洁。",
+  "McpMemoryEnabled": true,
+  "McpCommand": "npx.cmd",
+  "McpArguments": "--yes @modelcontextprotocol/server-memory",
+  "LocalSpeed": "快速",
+  "Temperature": 0.7,
+  "SpriteScale": 0.8,
+  "ApiPresets": [
+    { "Provider": "local-ollama-llama32", "Protocol": "http", "Host": "127.0.0.1", "Port": "11434", "Path": "/api/chat", "Model": "llama3.2:latest", "ApiKey": "" },
+    { "Provider": "local-ollama-qwen", "Protocol": "http", "Host": "127.0.0.1", "Port": "11434", "Path": "/api/chat", "Model": "hf.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive:IQ3_M", "ApiKey": "" },
+    { "Provider": "deepseek-chat", "Protocol": "https", "Host": "api.deepseek.com", "Port": "443", "Path": "/chat/completions", "Model": "deepseek-chat", "ApiKey": "" },
+    { "Provider": "deepseek-reasoner", "Protocol": "https", "Host": "api.deepseek.com", "Port": "443", "Path": "/chat/completions", "Model": "deepseek-reasoner", "ApiKey": "" },
+    { "Provider": "custom-openai-compatible", "Protocol": "https", "Host": "api.deepseek.com", "Port": "443", "Path": "/chat/completions", "Model": "deepseek-chat", "ApiKey": "" }
+  ]
+}
