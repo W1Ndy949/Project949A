@@ -1,9 +1,0 @@
-For your best experience, you need to download basic tweaks, like the MCP memory server.
- 
-1. Run **setup_base.exe**
-	- On double click, the program will force download node.js and MCP server for 	enhanced model memory. 
-	- You can choose to download ollama as well. 
-	- We also provide easy download for llama3.2:latest, as a lightweight model that most 	computers are capable of running. 
-	- This version supports both API key and local models, it's ok not to download our 	suggested models.
-2. After setup is finished, run **Project949_v3.0_lightweight.exe**. 
-	- No tutorial for application yet, but it should be quite easy.
